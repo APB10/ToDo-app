@@ -24,7 +24,7 @@ function addTodo(e) {
   //Save to local - do this last
   //Save to local
   saveLocalTodos(todoInput.value);
-  //
+
   newTodo.classList.add("todo-item");
   todoDiv.appendChild(newTodo);
   todoInput.value = "";
